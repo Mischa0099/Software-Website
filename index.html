@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Company</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Software Company</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home">
+       <div class="image-container">
+        <img src="img2.jpg" alt="Image1">
+        <div class="overlay"></div>
+    </div>
+    <div class="text-overlay">
+        <h1>Nexus</h1>
+        <h2>Welcome to Nexus Software!</h2>
+        <p>We provide innovative software solutions to help your business grow.</p>
+    </div>
+    </section>
+            <div class="container">
+                <h2>Our Services</h2>
+                <div class="service">
+                    <h3>Custom Software Development</h3>
+                    <p>We create custom software solutions tailored to your business needs.</p>
+                </div>
+                <div class="service">
+                    <h3>Mobile App Development</h3>
+                    <p>Our team develops mobile applications for iOS and Android platforms.</p>
+                </div>
+                <div class="service">
+                    <h3>Cloud Solutions</h3>
+                    <p>We offer scalable cloud solutions to enhance your business operations.</p>
+                </div>
+            </div>
+        </section>
+        <section id="portfolio">
+            <div class="container">
+                <h2>Our Portfolio</h2>
+                <p>Check out some of the projects we have worked on.</p>
+                <!-- Add project examples here -->
+            </div>
+        </section>
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+                <p>We are a team of experienced software developers dedicated to delivering high-quality solutions.</p>
+            </div>
+        </section>
+       
+        <section id="contact">
+            <div class="container form">
+                <h2>Information Section</h2>
+                <form id="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <select name="Type" id="Type"> <br><br>
+                        <select>
+                            <label for="Problem">Problem</label>
+                        <option value="Hardware">Hardware </option>
+                        <option value="Software">Software </option><br><br>
+                        <input type="Product" id="Product" name="Product">
+                        <label for="Type">Problem Encountered</label>
+                    </select>
+
+                    <label for="message">query:</label>
+                    <textarea id="message" name="message" required></textarea><br><br>
+                    <button type="submit">Submit</button>
+                </form>
+                <p id="response-message"></p>
+            </div>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="container">
+            <script src="script.js"></script>
+            <p>&copy; 2024 Software Company. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
+
+
